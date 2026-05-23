@@ -10,7 +10,7 @@ namespace PrawnSuitGrapplingArmUpgrade
 		public readonly float armCooldown = 0.5f; // default: 2.0f
 
 		[Field.Range(35f, 100f)]
-		public readonly float hookMaxDistance = 50f; // default: 35f
+		public readonly float hookMaxDistance = 100f; // default: 35f
 
 		[Field.Range(25f, 70f)]
 		public readonly float hookSpeed = 50f; // default: 25f
